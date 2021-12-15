@@ -1,0 +1,53 @@
+.message_usercard {
+  background-color: #0b81ff !important;
+  padding: 10px;
+}
+.message_guestcard {
+  background-color: #e9e9eb !important;
+  padding: 10px;
+}
+.app_form {
+  margin: auto;
+  padding: 20px;
+  width: 70% !important;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background-color: #e9e9eb;
+}
+.app_formcontrol {
+  display: flex !important;
+  flex-direction: row !important;
+}
+.app_input {
+  flex: 1;
+}
+.app_button {
+  flex: 0;
+}
+.message {
+  padding: 10px;
+  margin: 10px;
+  width: fit-content;
+}
+.message_user {
+  margin-left: auto !important;
+  color: white;
+  text-align: left !important;
+  width: fit-content;
+}
+.app_container {
+  margin: 4em;
+  max-height: 70vh !important;
+  overflow-y: scroll !important;
+}
+.app_Typography {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.app_form_div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
